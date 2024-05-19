@@ -31,6 +31,11 @@ To deploy on an AWS EC2 instsance, use appcloud.py instead of app.py and check o
 
 Either install Python 3.7 directly or install Python 3.7 in a virtual environent on the EC2 instance.
 
+If TensorFlow doesn't install in your virtual machine use this command
+
+pip3 install tensorflow==2.4.3 --no-cache-dir
+
+
 
 
 
